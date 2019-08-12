@@ -1,0 +1,12 @@
+name: BetterSiege
+depends: GriefPrevention
+main: me.tydie.bettersiege.Main
+version: 1.0
+api-version: 1.14
+author: TyDie
+commands:
+ attack:
+  description: initiates a Better siege.
+  usage: /attack <player>
+  permission: bettersiege.attack
+  permission-message: you don't have permission for that bettersiege.attack
